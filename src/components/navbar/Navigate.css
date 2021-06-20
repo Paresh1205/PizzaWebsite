@@ -1,0 +1,55 @@
+.nav{
+    background:transparent;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.nav a{
+    color: #fff;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+.nav a p {
+  transform: translate(-29%, 53%);
+  font-weight: bold;
+}
+
+.menuSideBar{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  color: #fff;
+}
+.menuSideBar svg{
+  font-size: 2rem;
+  transform: translate(-50%, 53%);
+}
+@media (min-width:768px) and (max-width:1024px){
+  .nav a p {
+    transform: translate(-33%, 53%);
+  }
+}
+@media (max-width:767.98px){
+  .nav .pizzaHead{
+    left: 15px;
+    position: absolute;
+    top: 6px;
+  }
+  .menuSideBar svg{
+    font-size: 1rem;
+    transform: translate(-101%, 41%);
+  }
+  
+}
